@@ -145,6 +145,98 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/04/09/%E6%95%B0%E5%AD%A6%E7%AC%94%E8%AE%B00409/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Ming">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="小Ming的后花园">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/04/09/%E6%95%B0%E5%AD%A6%E7%AC%94%E8%AE%B00409/" class="post-title-link" itemprop="url">数学笔记0409</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2020-04-09 15:52:10 / 修改时间：16:00:59" itemprop="dateCreated datePublished" datetime="2020-04-09T15:52:10+08:00">2020-04-09</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>$P(B)=P(\bar{A}B)=P(\bar{A})·P(B|\bar{A})$</p>
+<p>条件概率：$P(AB)=P(A)·P(B|A)$</p>
+<p>原因：$B|A$因为有$|A$所以它和$A$是独立事件</p>
+<p>出题：$P(B)=P(AB)(如按密码，第二次对了代表第一次必不对)$或$P(B)=P(B|A)(相互独立)$</p>
+<p>求分布列：检验概率之和为1，如有错误检查X的定义域是否正确</p>
+<p>人坐椅子模型：插空法</p>
+<p>人坐椅子不能相邻：每个人拿个椅子插到空座位的间隙中</p>
+<p>空位置不能相邻：空座位插到已经拿着椅子坐好的人的间隙中</p>
+<p>总结：两两不相邻模型：把不相邻的元素单独挑出来，插空法。</p>
+<p>隔板法：针对相同元素</p>
+<p>任务分配：先选人再分组最后分配任务</p>
+<p>赋值法：取极限</p>
+<p>拿球交换模型：</p>
+<p>法一：</p>
+<p>熵值判断。</p>
+<p>假设咖啡和牛奶都有10份，一勺是一份。</p>
+<p>先舀一勺咖啡放入牛奶里</p>
+<p>此时咖啡还剩9份，而牛奶有11份了。但是牛奶里有一份是咖啡。</p>
+<p>在舀一勺牛奶放入咖啡中。</p>
+<p>此时舀的一勺牛奶里。已经不全是牛奶了。</p>
+<p>如果牛奶和咖啡充分的溶解。那一勺咖啡里应该有9份牛奶.一份咖啡。</p>
+<p>也就是说，牛奶杯里还剩9点1份牛奶，0.9份咖啡。</p>
+<p>而现在的咖啡杯里就应该有9点1份咖啡了，0.9份牛奶。</p>
+<p>而直接各舀一勺牛奶杯里9份奶1份咖啡，咖啡杯同理。</p>
+<p>所以各舀一勺的熵大。</p>
+<p>所以各拿出一个球交换比先把一个球从一个箱子里放到另一个箱子里再从另一个箱子里拿一个球回来更均匀。</p>
+<p>感性理解：先把一个球从一个箱子里放到另一个箱子里再从另一个箱子里拿一个球回来这种可能拿回原来的球，那么球的数目就没变。而如果没拿原来的球就和各拿一个球交换的情况等价。所以方案二有球数目不变的概率，即熵没增的概率，所以熵值小。</p>
+<p>法二：</p>
+<p>期望法。</p>
+<p>如3红1白，拿三个放到另一个盒子里。</p>
+<p>直接拿$\frac94$个红，$\frac34$个白放另一个盒子。</p>
+<p>法三：</p>
+<p>极限法。</p>
+<p>假设一边有$\infty$个红球，$c$个白球，这样$c$因为相比于$\infty$极小而可以忽略，同时保证数据合法。</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/04/08/%E7%94%9F%E7%89%A9%E7%AC%94%E8%AE%B00408/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -352,7 +444,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-count">3</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
